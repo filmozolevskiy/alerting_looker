@@ -1,3 +1,5 @@
+connection: "ota_phoenix"
+
 include: "/feature_alerting/*"
 
 
@@ -23,7 +25,7 @@ explore: alerting {
     }
     filters: {
       field: alerting_parameters.metric_name
-      value: "order_count"
+      value: "search_count"
     }
     filters: {
       field: alerting.current_time_window
